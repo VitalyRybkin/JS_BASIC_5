@@ -47,7 +47,7 @@ console.log(post.author, post.comments[0].rating.dislikes, post.comments[1].user
 
 console.log('3. Дан массив products, необходимо цену каждого продукта уменьшить на 15% используя метод forEach.')
 
-const products = [
+const product = [
     {
     id: 3,
     price: 200,
@@ -62,7 +62,7 @@ const products = [
     },
     ];
 
-products.forEach(element => {
+product.forEach(element => {
     element.price *= 0.85;
     console.log(element.id + ' - ' + element.price)
 });
